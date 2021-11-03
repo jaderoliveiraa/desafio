@@ -1,0 +1,24 @@
+O desafio consiste em você montar uma página do nosso 'Acesso VIP' com base no modelo do design
+que se encontra na pasta 'modelo', de preferência igual ou com melhorias que você possa ter pensado.
+Cada imagem do modelo corresponde a uma sessão/bloco da mesma página, 
+de forma sequencial um abaixo do outro.
+
+Faça o diretório deste teste rodar em um servidor apache com php 5.6 ou 7.4.
+
+Há duas versões para a mesma página, uma para desktop e outra para mobile.
+A versão desktop se encontrará pelo arquivo index.php e a outra pelo mobile.php.
+Já está incluso o cabeçalho e o rodapé, além das bibliotecas usadas, 
+não altere nenhum outro arquivo além do index.php e mobile.php.
+
+Você deve fazer a responsividade da página pelo menos até onde vai os tamanhos categorizados
+(mobile do menor tamanho até o tamanho de tablet e acima disso será tamanho desktop). 
+E se for feita uma responsividade perfeita que encaixa em ambas as páginas,
+poderá deixar duplicado o mesmo código nos dois arquivos.
+
+Já está sendo importadas e usadas algumas bibliotecas conhecidas informadas abaixo,
+além de alguns arquivos js e css customizados que poderá verificar depois:
+jQuery v1.12.4 
+Bootstrap v3.3.7
+Font Awesome Free 5.13.0
+
+Boa Sorte!

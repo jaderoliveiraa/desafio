@@ -1,0 +1,21 @@
+header,#divnewsletter,#copy_right,.btn-purple, ul.submenu-col li a#active,.modal-header { background-color: #0a86c5; }
+
+.benefits-course .icon{color: #4CA5FF;}
+
+header ul li:last-child { background: rgb(76, 150, 224); }
+
+.top-bar { background: #3f8cda; }
+.top-bar .top-contact li .text, .top-bar .top-contact li .text a { color: #ffffff; }
+#sub-header{ background: #0a86c5 url(../img/bg_sub-header.novembroazul.png) repeat 0 0 }
+#submit-newsletter { background: rgb(54, 113, 173); }
+.categorias-cursos-slide{ background: #3f8cda !important; }
+
+.description .boxDesc{ background-color: #3f8cda !important; box-shadow: 0px 2px 0px 0px rgb(74, 119, 152) !important; }
+.number { background: #3f8cda !important; }
+
+.btn-purple:hover, .btn-purple:active { background-color: rgb(60, 189, 123); }
+.sf-menu li:hover, .sf-menu li.sfHover { background: rgb(71, 164, 212); }
+
+.loading2{
+    display: block;
+}

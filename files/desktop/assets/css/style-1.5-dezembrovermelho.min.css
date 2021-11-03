@@ -1,0 +1,20 @@
+header,#divnewsletter,#copy_right,.btn-purple, ul.submenu-col li a#active,.modal-header { background-color: #e83737; }
+.benefits-course .icon{color: #E47979;}
+header ul li:last-child { background: rgb(210, 63, 63); }
+
+.top-bar { background: #ca3333; }
+.top-bar .top-contact li .text, .top-bar .top-contact li .text a { color: #ffffff; }
+
+.categorias-cursos-slide { background: #e83737 !important; }
+
+.description .boxDesc{ background-color: #433a48 !important; box-shadow: 0px 2px 0px 0px rgb(55, 52, 58) !important; }
+.number { background: #433a48 !important; }
+
+#sub-header{ background: #e83737 url(../img/bg_sub-header.dezembrovermelho.png) repeat 0 0 }
+
+#submit-newsletter{ background: rgb(177, 95, 95); }
+
+.btn-purple:hover, .btn-purple:active { background-color: rgb(234, 149, 149); }
+.sf-menu li:hover, .sf-menu li.sfHover { background: rgba(255, 255, 255, 0.36); }
+
+.loading2{ display: block; }

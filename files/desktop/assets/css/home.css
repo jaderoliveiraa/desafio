@@ -1,0 +1,203 @@
+.title-slide-1{
+  z-index: 20;
+  position: relative;
+  top: 37%;
+  font-weight: bold;
+  font-size: 35px;
+  color: #fff;
+  text-transform: none !important;
+}
+.btn-treinamento{
+  display: inline-block;
+  background: #4caf50;
+  padding: 8px;
+  width: 25%;
+  border-radius: 3px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 19px;
+  text-align: center;
+  color: #FFF;
+}
+.btn-treinamento:hover{
+  background: #368439;
+  color: #FFF;
+}
+
+.btn-red{ background: #df4044; }
+.btn-red:hover{ background: #ff6468; color: #FFF; }
+
+/*.carousel-control{
+background: none !important;
+}*/
+.icon-prev, .icon-next{
+  /*background: #FFF;*/
+  /*padding: 10px 50px 50px 8px;*/
+  /*border-radius: 40px;*/
+  color: #ffffff;
+}
+.carousel-caption{ right: 0; }
+.description{width: 500px;position: absolute;right: 2%;top: 0%;background: transparent !important;padding: 0 !important;}
+.description .boxDesc{width: 500px;background-color: rgb(135, 91, 159);text-align: center;box-shadow: 0px 2px 0px 0px rgb(112, 75, 132);padding: 11px 31px;border-radius: 4px;}
+
+.carousel-caption .description p{display: block;}
+.carousel-caption .description p, .carousel-caption .description p span{font-size: 25px;color: #FFF;margin-bottom: 0px;line-height: 37px;font-weight: 100;}
+
+.display-block{display: block !important;}
+
+.number{font-size: 75px !important;background: #875B9F;display: block !important;padding: 49px 26px;float: left;color: #FFF !important;border-radius: 108px;font-weight: 100 !important;font-family: roboto;text-shadow: none;position: absolute;left: -60px;top: -27px;}
+
+.button {color: #FFF;font-size: 16px;font-weight: 500;padding: 10px 60px;border-radius: 2px;text-shadow: none;background: rgba(255, 255, 255, 0.4);transition: background 0.5s easy;}
+.button:hover{color: #FFF;background: rgba(255, 255, 255, 0.2);}
+.text-warning{ color: #F9FFAC !important; }
+
+.animate1{display: none; -webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+.animate2{display: none;-webkit-animation-delay: 0.5s;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+.animate3{display: none;-webkit-animation-delay: 1s;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+.animate4{display: none;-webkit-animation-delay: 1.5s;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+.animate5{display: none;-webkit-animation-delay: 2s;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+.animate6{display: none;-webkit-animation-delay: 2.5s;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+
+@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}
+@keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);-ms-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}100%{opacity:1;-webkit-transform:none;-ms-transform:none;transform:none}}
+.fadeInRight{-webkit-animation-name:fadeInRight;animation-name:fadeInRight}
+
+@-webkit-keyframes bounceIn{0%,100%,20%,40%,60%,80%{-webkit-transition-timing-function:cubic-bezier(0.215,.61,.355,1);transition-timing-function:cubic-bezier(0.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}100%{opacity:1;-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
+@keyframes bounceIn{0%,100%,20%,40%,60%,80%{-webkit-transition-timing-function:cubic-bezier(0.215,.61,.355,1);transition-timing-function:cubic-bezier(0.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);-ms-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);-ms-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);-ms-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);-ms-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);-ms-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}100%{opacity:1;-webkit-transform:scale3d(1,1,1);-ms-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
+.bounceIn{-webkit-animation-name:bounceIn;animation-name:bounceIn;}
+
+@-webkit-keyframes rubberBand{0%{opacity:0;}1%{opacity:1;-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(0.75,1.25,1);transform:scale3d(0.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}100%{opacity:1;-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
+@keyframes rubberBand{0%{opacity:0;}1%{opacity:1;-webkit-transform:scale3d(1,1,1);-ms-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);-ms-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(0.75,1.25,1);-ms-transform:scale3d(0.75,1.25,1);transform:scale3d(0.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);-ms-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);-ms-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);-ms-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}100%{opacity:1;-webkit-transform:scale3d(1,1,1);-ms-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
+.rubberBand{-webkit-animation-name:rubberBand;animation-name:rubberBand}
+
+.categorias-cursos-slide{background: #E8797E;width: 100%;display: block;padding: 20px 0 65px 0;top: -9px;z-index: 11;}
+.categorias-cursos-slide ul{}
+  .categorias-cursos-slide ul li{display: block;float: left;width: 12%;height: 29px;text-align: center !important;padding-top: 3px;}
+  .categorias-cursos-slide .title{font-size: 17px;line-height: 24px;font-weight: 100;color: #FDFDFD;text-align: center;}
+  .categorias-cursos-slide .title img{position: absolute;top: -22px;right: -17px;}
+  .categorias-cursos-slide ul li a{color: #FFF;font-size: 14px;font-weight: 400;}
+  .categorias-cursos-slide ul li a:hover{ text-decoration: underline; }
+
+  /*ofertaCursosDeFerias*/
+  .ofertaCursosDeFerias .description{ top: 15%; right: 0; }
+  .ofertaCursosDeFerias .description .boxDesc{ background: none !important; box-shadow: none !important; }
+  .ofertaCursosDeFerias .description p, .ofertaCursosDeFerias .description p span{
+    text-shadow: none !important;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 35px;
+    color: #1e0c25;
+  }
+  .ofertaCursosDeFerias .description p:first-child{
+    font-weight: 600;
+    font-size: 25px;
+  }
+  .ofertaCursosDeFerias .description .btn{
+    padding: 10px 80px;
+    border-radius: 3px;
+    font-size: 18px;
+    background: #f35b5b;
+    box-shadow: 2px 2px 2px #4a4a4a;
+  }
+
+  .ofertaCursosDeFerias .description small{
+    font-size: 15px;
+    margin-top: 16px;
+    display: block;
+    color: #000;
+    text-shadow: none;
+    font-weight: 400;
+  }
+
+  .ofertaCursosDeFerias .description small a{
+    color: #5d66dc;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  @media screen and (min-width:992px) and (max-width: 1200px){
+    .categorias-cursos-slide .title{padding: 20px 0;line-height: 20px;}
+    .categorias-cursos-slide ul li{width: 20%;}
+    .categorias-cursos-slide{padding: 20px 0 115px 0;}
+    .categorias-cursos-slide .title img{top: -15px;}
+    .carousel-caption .description p, .carousel-caption .description p span{font-size: 20px;line-height: 29px;}
+    .gridImages{ display: none; }
+    .textEad{ display: none; }
+    .categorias-cursos-slide ul li{border-bottom: 2px rgba(255, 255, 255, 0.22) solid;}
+    .categorias-cursos-slide ul li:nth-last-of-type(1),
+    .categorias-cursos-slide ul li:nth-last-of-type(2),
+    .categorias-cursos-slide ul li:nth-last-of-type(3),
+    .categorias-cursos-slide ul li:nth-last-of-type(4),
+    .categorias-cursos-slide ul li:nth-last-of-type(5){
+      border-bottom: 0;
+    }
+  }
+  @media (max-width: 979px){
+    .mais-info{
+      font-size: 1vw
+    }
+  }
+  @media (min-width: 979px){
+    .mais-info{
+      font-size: 12px
+    }
+  }
+  @media (min-width: 1201px){
+    .categorias-cursos-slide {
+      padding: 15px 0 85px 0;
+    }
+    .categorias-cursos-slide ul li{
+      border-bottom: 2px rgba(255, 255, 255, 0.22) solid;
+    }
+    .categorias-cursos-slide .title {
+      padding-top: 7px;
+    }
+    .categorias-cursos-slide .title img {
+      position: absolute;
+      top: -12px;
+    }
+  }
+
+  .gridImages{margin: 7px 50px 0 50px}
+
+  @media screen and (min-width: 1200px){
+    .categorias-cursos-slide ul li:nth-of-type(1),
+    .categorias-cursos-slide ul li:nth-of-type(2),
+    .categorias-cursos-slide ul li:nth-of-type(3),
+    .categorias-cursos-slide ul li:nth-of-type(4),
+    .categorias-cursos-slide ul li:nth-of-type(5),
+    .categorias-cursos-slide ul li:nth-of-type(6),
+    .categorias-cursos-slide ul li:nth-of-type(7),
+    .categorias-cursos-slide ul li:nth-of-type(8){
+      border-bottom: 2px rgba(255, 255, 255, 0.22) solid;
+    }
+
+  }
+
+  @media screen and (min-width: 1340px){
+    .gridImages{margin: 11px 50px;}
+  }
+
+  @media screen and (min-width: 1400px){
+    /*.btn-treinamento {left: 69%}*/
+  }
+
+  @media screen and (min-width: 1600px){
+    /*.btn-treinamento {left: 79.8%}*/
+  }
+
+  @media screen and (min-width:1515px){
+    .gridImages{margin: 18px 50px}
+    .textEad{text-shadow: 0 0 0 #000;color: #565656;}
+
+  }
+
+  @media screen and (min-width: 1900px){
+    /*.btn-treinamento {left: 71%}*/
+  }
+
+  .mais-procurados{
+    position: absolute;
+    margin-top: -4%;
+    margin-left: -2.5%;
+  }

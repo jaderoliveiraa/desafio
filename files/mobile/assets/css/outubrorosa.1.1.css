@@ -1,0 +1,13 @@
+.topHeader .userLogged{ background: #a81e65; }
+.topHeader, .btn-filter, .newsletter, .copyright .top{ background-color: #c32375; }
+.copyright{ background: #c83882; }
+
+.bck-sidebar{ background: rgba(130, 21, 77, 0.58); }
+.copyright .top i{ color: #fff; }
+.topHeader .search { background: #a81e65; }
+.top-full h2, .top-full h4, .title-page{ color: #545454; }
+.top-full .header:after, .title-page:after{ background-color: #545454; }
+
+#sidebar { background: #82154d; }
+.cl-purple-1 { color: #a81e65; }
+.nav-tabs.primary { background: #a81e65; }
